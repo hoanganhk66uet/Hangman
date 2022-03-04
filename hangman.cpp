@@ -13,7 +13,7 @@ bool contains(string secretWord,char guess);
 string update(string guessedWord,string secretWord,char guess);
 void result(string secretWord,string guessedWord);
 bool again();
-const MAX_BAD_GUESSES=7;
+const int MAX_BAD_GUESSES=7;
 const string WORD_LIST[]={
 "angle", "ant", "apple", "arch", "arm", "army",
  "baby", "bag", "ball", "band", "basin", "basket", "bath", "bed", "bee", "bell", "berry", "bird", "blade", "board", "boat", "bone", "book", "boot", "bottle", "box", "boy",
